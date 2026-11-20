@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio cá nhân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>My Portfolio</h2>
+            <ul>
+                <li><a href="#home">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">   
+        <div class="home-content">
+            <h3>Xin chào! Tôi là</h3>
+            <h1>Hà Thị Giang</h1>
+            <p class="intro">
+                Hiện đang là sinh viên năm thứ
+                hai ngành Công nghệ thông tin, lớp 66K1CNTT.
+                Trong thời gian học tại trường, tôi đã được làm quen với một số 
+                kiến thức lập trình như C++, HTML, CSS và JavaScript.Tôi vẫn 
+                đang trong quá trình học hỏi và thử sức với những kiến thức mới. 
+                Qua các bài tập và dự án trên lớp, tôi có cơ hội hiểu hơn về cách 
+                viết chương trình, xây dựng website cũng như cách giải quyết 
+                những vấn đề trong quá trình thực hành.
+                Mỗi bài tập hay dự án nhỏ đều giúp tôi hiểu thêm về những điều 
+                mình đang học và những kỹ năng cần cải thiện.
+
+            <a href="#projects" class="btn">
+                Xem dự án của tôi →
+            </a>
+        </div>
+        <div class="home-image">
+            <img src="./ảnhbia.jpg" alt="Ảnh đại diện">
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-heading">
+            <h2>Kỹ năng của tôi</h2>
+            <p>
+                Tổng hợp những kiến thức và công cụ tôi đang học tập,
+                thực hành trong quá trình theo đuổi ngành Công nghệ thông tin.
+            </p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <h3>Lập trình web</h3>
+                <div class="line"></div>
+                <h4>HTML5 · CSS3</h4>
+                <p>
+                    Xây dựng cấu trúc trang web, thiết kế giao diện,
+                    bố cục và trình bày nội dung.
+                </p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">{ }</div>
+                <h3>Ngôn ngữ lập trình</h3>
+                <div class="line"></div>
+                <h4>C · C++ · JavaScript</h4>
+                <p>
+                    Làm quen với tư duy lập trình, giải quyết
+                    bài toán và vận dụng kiến thức.
+                </p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙</div>
+                <h3>Công cụ & Dữ liệu</h3>
+                <div class="line"></div>
+                <h4>VS Code · Git · GitHub</h4>
+                <p>
+                    Sử dụng các công cụ hỗ trợ viết mã,
+                    quản lý mã nguồn hiệu quả.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Dự án tiêu biểu</h2>
+            <div class="project-list">
+            <div class="project-card">
+                <img src="./news.jpg" alt="Website tin tức">
+                <h3>Website tin tức tổng hợp</h3>
+                <p>Xây dựng website tin tức bằng Google Sites.</p>
+                <span>Google Sites</span>
+            </div>
+            <div class="project-card">
+                <img src="./quanly.jpg" alt="Quản lý khen thưởng">
+                <h3>Quản lý khen thưởng</h3>
+                <p>Chương trình C++ áp dụng kế thừa, đa hình và xử lý tệp.</p>
+                <span>C++ | OOP</span>
+            </div>
+            <div class="project-card">
+                <img src="./đặt đồ ăn online.jpg" alt="Website đặt đồ ăn">
+                <h3>Website đặt đồ ăn trực tuyến</h3>
+                <p>Thiết kế giao diện đặt món và tìm kiếm món ăn.</p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+            <div class="project-card">
+                <img src="./canhan.jpg" alt="Portfolio cá nhân">
+                <h3>Portfolio cá nhân</h3>
+                <p>Website giới thiệu bản thân, kỹ năng và các dự án học tập.</p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+        <p class="contact-eyebrow">GET IN TOUCH</p>
+        <h2>Liên hệ</h2>
+        <p class="contact-copy">
+            Cảm ơn bạn đã dành thời gian ghé thăm Portfolio của tôi.
+        </p>
+        <div class="contact-links">
+            <a href="mailto:hathigiang29112007@gmail.com">
+                EMAIL <span>↗</span>
+            </a>
+            <a href="https://www.facebook.com/"
+            target="_blank" rel="noopener noreferrer">
+                FACEBOOK <span>↗</span>
+            </a>
+            <a href="tel:0966284903">
+                PHONE <span>↗</span>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2026 Hà Thị Giang. Đồ án cá nhân lớp LTW_02.Trường Đại Học Vinh</p>
+    </footer>
+    <footer class="site-footer"><a href="#home">BACK TO TOP ↑</a></footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
